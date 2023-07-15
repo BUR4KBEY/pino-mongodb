@@ -1,0 +1,36 @@
+{
+  "name": "@burakbey/pino-mongodb",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.4.2",
+    "rimraf": "^5.0.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "mongodb": "^5.7.0"
+  },
+  "scripts": {
+    "build": "tsc -p .",
+    "clean": "rimraf dist",
+    "prebuild": "yarn clean"
+  },
+  "keywords": [
+    "pino",
+    "mongodb",
+    "pino-mongodb"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BUR4KBEY/pino-mongodb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BUR4KBEY/pino-mongodb/issues"
+  },
+  "homepage": "https://github.com/BUR4KBEY/pino-mongodb#readme",
+  "files": [
+    "dist"
+  ]
+}
